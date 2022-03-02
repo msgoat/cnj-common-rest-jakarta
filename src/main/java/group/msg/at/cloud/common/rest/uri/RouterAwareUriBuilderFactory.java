@@ -1,4 +1,4 @@
-package group.msg.at.cloud.common.web.jaxrs;
+package group.msg.at.cloud.common.rest.uri;
 
 import jakarta.ws.rs.core.HttpHeaders;
 import jakarta.ws.rs.core.MultivaluedMap;
