@@ -1,13 +1,13 @@
 package group.msg.at.cloud.common.rest.jwt;
 
-import org.eclipse.microprofile.jwt.JsonWebToken;
-
 import jakarta.annotation.Priority;
 import jakarta.enterprise.inject.spi.CDI;
 import jakarta.ws.rs.Priorities;
 import jakarta.ws.rs.client.ClientRequestContext;
 import jakarta.ws.rs.client.ClientRequestFilter;
 import jakarta.ws.rs.ext.Provider;
+import org.eclipse.microprofile.jwt.JsonWebToken;
+
 import java.io.IOException;
 
 /**
